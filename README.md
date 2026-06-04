@@ -14,6 +14,14 @@ Transitioning from SAP Data Migration Consultant to AI Solutions Engineer and Fo
 * temperature_checker.py
 * grade_checker.py
 
+### Day 3
+- odd_even_checker.py
+- largest_of_three.py
+
+### Day 4
+- voting_eligibility.py
+- positive_negative_zero.py
+- calculator.py
 ## Skills Learned
 
 ### Python Basics
