@@ -22,6 +22,12 @@ Transitioning from SAP Data Migration Consultant to AI Solutions Engineer and Fo
 - voting_eligibility.py
 - positive_negative_zero.py
 - calculator.py
+
+### Day 5
+- print_1_to_10.py
+- even_numbers.py
+- sum_of_n_numbers.py
+
 ## Skills Learned
 
 ### Python Basics
@@ -34,6 +40,10 @@ Transitioning from SAP Data Migration Consultant to AI Solutions Engineer and Fo
 * if-elif-else
 * Comparison operators
 * Logical reasoning
+* for loops
+* range()
+* loop tracing
+* running totals
 
 ## Repository Structure
 
