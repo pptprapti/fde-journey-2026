@@ -180,6 +180,24 @@ Concepts Learned:
 - Finding Largest Element
 - Basic DSA Thinking
 
+---
+
+## Day 9
+
+Programs:
+- smallest_in_list.py
+- average_of_list.py
+- linear_search.py
+- search_with_flag.py
+
+Concepts Learned:
+- Finding Smallest Element
+- Average Calculation
+- Linear Search
+- Boolean Flags
+- Search Patterns
+- not Operator
+
 ## Skills Learned
 
 ### Python Basics
