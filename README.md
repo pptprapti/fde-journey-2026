@@ -161,6 +161,25 @@ Concepts Learned:
 
 ---
 
+### Day 8
+
+Programs:
+- list_basics.py
+- count_list_items.py
+- list_loop.py
+- sum_list.py
+- find_largest.py
+
+Concepts Learned:
+- Lists
+- Indexing
+- Zero-based Indexing
+- len()
+- Looping through Lists
+- Summation over Lists
+- Finding Largest Element
+- Basic DSA Thinking
+
 ## Skills Learned
 
 ### Python Basics
