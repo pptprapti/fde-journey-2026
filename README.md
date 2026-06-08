@@ -198,6 +198,26 @@ Concepts Learned:
 - Search Patterns
 - not Operator
 
+---
+
+## Day 10
+
+Programs:
+- string_length.py
+- print_characters.py
+- count_vowels.py
+- maximum_and_minimum.py
+
+Concepts Learned:
+- Strings
+- String Iteration
+- String Indexing
+- Negative Indexing
+- len()
+- Vowel Counting
+- Maximum and Minimum Search
+- Edge Case Thinking
+
 ## Skills Learned
 
 ### Python Basics
