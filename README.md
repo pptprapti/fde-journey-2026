@@ -280,6 +280,7 @@ Programs:
 * sum_list_function.py
 * count_even_function.py
 * find_max_function.py
+* find_min_function.py
 
 Concepts Learned:
 

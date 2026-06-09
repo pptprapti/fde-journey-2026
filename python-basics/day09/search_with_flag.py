@@ -1,5 +1,5 @@
 numbers = [10,20,30,40]
-target = 30 
+target = 50 
 flag = False
 for num in numbers:
     if num == target:
