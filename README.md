@@ -218,6 +218,23 @@ Concepts Learned:
 - Maximum and Minimum Search
 - Edge Case Thinking
 
+---
+
+## Day 11
+
+Programs:
+- reverse_string.py
+- palindrome_checker.py
+- count_character.py
+
+Concepts Learned:
+- String Reversal
+- Palindrome Checking
+- Character Frequency Counting
+- Case Sensitivity
+- Input Normalization
+- Boolean Expressions
+
 ## Skills Learned
 
 ### Python Basics
