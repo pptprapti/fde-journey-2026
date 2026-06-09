@@ -235,6 +235,22 @@ Concepts Learned:
 - Input Normalization
 - Boolean Expressions
 
+---
+
+## Day 12
+
+Programs:
+- greet_user.py
+- greet_name.py
+- add_numbers.py
+
+Concepts Learned:
+- Functions
+- Parameters
+- Arguments
+- Return Values
+- Reusable Code
+
 ## Skills Learned
 
 ### Python Basics
