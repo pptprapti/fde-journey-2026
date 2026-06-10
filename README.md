@@ -49,6 +49,10 @@ Target: Secure an international technology role and transition into AI Solutions
 * Return Values
 * Problem Solving
 * Git & GitHub Fundamentals
+* Dictionaries
+* Key-Value Pairs
+* Dictionary Traversal
+* Dictionary Updates
 
 ---
 
@@ -306,6 +310,43 @@ Real Engineer Concepts:
 * Writing Reusable Functions
 
 ---
+
+## Day 14
+
+Programs:
+
+* student_dictionary.py
+* access_dictionary.py
+* update_dictionary.py
+* change_value.py
+* loop_dictionary.py
+* print_dictionary_values.py
+
+Concepts Learned:
+
+* Dictionaries
+* Key-Value Pairs
+* Dictionary Creation
+* Accessing Dictionary Values
+* Adding New Key-Value Pairs
+* Updating Existing Values
+* Dictionary Traversal
+* Looping Through Dictionary Keys
+* Accessing Values Using Keys
+* Dictionary State Tracing
+
+DSA Patterns Practiced:
+
+* Dictionary Tracing
+* Key Traversal Pattern
+* State Change Tracking
+
+Real Engineer Concepts:
+
+* Structured Data Representation
+* Dictionaries vs Lists
+* Scalability Through Loops
+* Why APIs and JSON Use Key-Value Pairs
 
 
 ## Skills Learned
