@@ -53,6 +53,10 @@ Target: Secure an international technology role and transition into AI Solutions
 * Key-Value Pairs
 * Dictionary Traversal
 * Dictionary Updates
+* Dictionaries
+* Nested Dictionaries
+* Frequency Counting
+* Hash Map Fundamentals
 
 ---
 
@@ -347,6 +351,52 @@ Real Engineer Concepts:
 * Dictionaries vs Lists
 * Scalability Through Loops
 * Why APIs and JSON Use Key-Value Pairs
+
+---
+
+## Day 15
+
+Programs:
+
+* nested_dictionary.py
+* dictionary_keys.py
+* dictionary_values.py
+* dictionary_items.py
+* character_frequency.py
+
+Concepts Learned:
+
+* Dictionaries
+* Key-Value Pairs
+* Nested Dictionaries
+* Accessing Dictionary Values
+* Updating Dictionary Values
+* .keys()
+* .values()
+* .items()
+* Looping Through Dictionaries
+* Dictionary Traversal
+* Frequency Counting
+* Hash Map Fundamentals
+* Character Frequency Analysis
+
+DSA Patterns Practiced:
+
+* Counting Pattern
+* Frequency Counting Pattern
+* Dictionary Traversal Pattern
+* Key Lookup Pattern
+
+Real Engineer Concepts:
+
+* JSON-like Data Structures
+* API Response Inspection
+* Choosing Dictionaries vs Lists
+* Fast Key-Based Lookup
+* Data Organization with Nested Structures
+* Understanding Hash Maps
+* Debugging Structured Data
+* Processing Key-Value Data Efficiently
 
 
 ## Skills Learned
