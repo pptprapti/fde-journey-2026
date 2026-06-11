@@ -23,7 +23,7 @@ Target: Secure an international technology role and transition into AI Solutions
 
 ## Current Status
 
-**Completed:** Day 13
+**Completed:** Day 17
 
 ### Topics Covered
 
@@ -54,9 +54,24 @@ Target: Secure an international technology role and transition into AI Solutions
 * Dictionary Traversal
 * Dictionary Updates
 * Dictionaries
+* Dictionary Methods
+* keys()
+* values()
+* items()
+* Search Pattern
 * Nested Dictionaries
 * Frequency Counting
+* Duplicate Detection
+* Most Frequent Element
 * Hash Map Fundamentals
+* Hash Map Thinking
+* SQL DISTINCT
+* SQL COUNT
+* SQL COUNT(DISTINCT)
+* File Handling
+* File Reading
+* File Writing
+* ETL Style File Processing
 
 ---
 
@@ -398,6 +413,89 @@ Real Engineer Concepts:
 * Debugging Structured Data
 * Processing Key-Value Data Efficiently
 
+---
+
+---
+
+## Day 16
+
+Programs:
+- check_character_exists.py
+- first_duplicate_character.py
+- most_frequent_character.py
+- count_duplicates.py
+
+Concepts Learned:
+- Dictionary Lookup
+- Search Pattern
+- Boolean Flag Pattern
+- break Statement
+- Duplicate Detection
+- Frequency Counting
+- Most Frequent Element
+- Character Existence Checking
+- Hash Map Thinking
+
+DSA Patterns Practiced:
+- Search Pattern
+- Frequency Counting Pattern
+- Counting Pattern
+- Duplicate Detection Pattern
+
+Real Engineer Concepts:
+- Why Dictionaries are Faster for Lookups
+- Unique Values vs Total Values
+- Duplicate Detection using Dictionaries
+- Frequency Analysis
+- Applying Frequency Counting to Real-World Data
+- Memory Growth based on Unique Items
+
+SQL Concepts Reinforced:
+- DISTINCT
+- COUNT()
+- COUNT(DISTINCT)
+- Understanding Unique vs Duplicate Records
+
+---
+
+## Day 17
+
+Programs:
+
+* read_file.py
+* readline_example.py
+* process_file_lines.py
+* count_lines_in_file.py
+* write_file.py
+
+Concepts Learned:
+
+* File Handling
+* Reading Files
+* Writing Files
+* File Modes (r, w)
+* File Pointers
+* read()
+* readline()
+* for line in file
+* Memory Efficient File Processing
+* Line-by-Line Processing
+
+DSA Patterns Practiced:
+
+* Search Pattern
+* Counting Pattern
+* Iteration Pattern
+* Sequence Generation Pattern
+
+Real Engineer Concepts:
+
+* File Processing in ETL Pipelines
+* Large File Handling
+* Memory Optimization
+* Record-Based Processing
+* Input and Output Data Files
+* Data Validation Through File Processing
 
 ## Skills Learned
 
@@ -458,12 +556,17 @@ german/
 
 ### Python
 
-* Dictionaries
-* Sets
-* Tuples
+### Python
+
+✅ Lists
+✅ Strings
+✅ Functions
+✅ Dictionaries
+
 * File Handling
 * Exception Handling
 * Object-Oriented Programming
+* Modules & Packages
 
 ### DSA
 
@@ -478,9 +581,16 @@ german/
 
 ### SQL
 
-* SELECT
-* WHERE
+### SQL
+
+✅ SELECT
+✅ WHERE
+✅ DISTINCT
+✅ COUNT()
+✅ COUNT(DISTINCT)
+
 * ORDER BY
+* LIMIT
 * GROUP BY
 * JOINS
 * Window Functions
