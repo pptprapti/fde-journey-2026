@@ -23,7 +23,7 @@ Target: Secure an international technology role and transition into AI Solutions
 
 ## Current Status
 
-**Completed:** Day 17
+**Completed:** Day 18
 
 ### Topics Covered
 
@@ -72,7 +72,15 @@ Target: Secure an international technology role and transition into AI Solutions
 * File Reading
 * File Writing
 * ETL Style File Processing
-
+* Sets
+* Membership Checking
+* Duplicate Removal
+* Set Traversal
+* SQLite Fundamentals
+* SQLite Database Creation
+* SQLite Tables
+* SQLite Data Insertion
+* DBeaver Database Connection
 ---
 
 ## Daily Progress
@@ -497,6 +505,87 @@ Real Engineer Concepts:
 * Input and Output Data Files
 * Data Validation Through File Processing
 
+---
+
+## Day 18
+
+Programs:
+
+* set_basics.py
+* unique_numbers.py
+* duplicate_emails.py
+* unique_skills.py
+
+Concepts Learned:
+
+* Sets
+* Creating Sets
+* add()
+* Membership Checking using in
+* Unique Values
+* Duplicate Removal
+* Set Traversal
+* Set vs List
+* Fast Lookup using Sets
+* SQLite Fundamentals
+* Persistent Databases
+* In-Memory Databases
+* Creating SQLite Databases
+* Creating Tables
+* Inserting Records
+* Basic SQL Query Execution
+
+DSA Patterns Practiced:
+
+* Search Pattern
+* Duplicate Detection Pattern
+* Duplicate Removal Pattern
+* Membership Checking Pattern
+
+Real Engineer Concepts:
+
+* Why Sets are Faster than Lists for Lookups
+* Eliminating Duplicate Data
+* Data Cleansing using Sets
+* Efficient Membership Checking
+* Using Sets for Large Datasets
+* Difference Between Temporary and Persistent Databases
+* Database Storage Fundamentals
+
+SQL Concepts Reinforced:
+
+* SELECT
+* WHERE
+* ORDER BY ASC
+* ORDER BY DESC
+* LIMIT
+
+SQLite Concepts Learned:
+
+* SQLite Installation
+* SQLite CLI Usage
+* Creating a Database File
+* Creating Tables
+* Inserting Records
+* Querying Data
+* Connecting SQLite with DBeaver
+
+Database Created:
+
+* fde_learning.db
+
+Tables Created:
+
+* employees
+
+Records Inserted:
+
+* Prapti - 70000
+* Rahul - 60000
+* Anita - 45000
+
+---
+
 ## Skills Learned
 
 ### Python Basics
@@ -526,6 +615,10 @@ Real Engineer Concepts:
 * Arguments
 * Return Values
 * Local Variables
+* Sets
+* Membership Checking
+* Duplicate Detection
+* Duplicate Removal
 
 ### Engineering Fundamentals
 
@@ -535,7 +628,10 @@ Real Engineer Concepts:
 * Commit Management
 * Repository Structure
 * Documentation Maintenance
-
+* SQLite Setup
+* SQLite Database Creation
+* Database Tables
+* DBeaver Setup
 ---
 
 ## Repository Structure
@@ -562,8 +658,9 @@ german/
 ✅ Strings
 ✅ Functions
 ✅ Dictionaries
+✅ File Handling
+✅ Sets
 
-* File Handling
 * Exception Handling
 * Object-Oriented Programming
 * Modules & Packages
@@ -588,9 +685,10 @@ german/
 ✅ DISTINCT
 ✅ COUNT()
 ✅ COUNT(DISTINCT)
+✅ ORDER BY
+✅ LIMIT
+✅ SQLite Setup
 
-* ORDER BY
-* LIMIT
 * GROUP BY
 * JOINS
 * Window Functions
