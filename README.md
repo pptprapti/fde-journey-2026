@@ -23,7 +23,7 @@ Target: Secure an international technology role and transition into AI Solutions
 
 ## Current Status
 
-**Completed:** Day 18
+**Completed:** Day 19
 
 ### Topics Covered
 
@@ -81,6 +81,16 @@ Target: Secure an international technology role and transition into AI Solutions
 * SQLite Tables
 * SQLite Data Insertion
 * DBeaver Database Connection
+* Exception Handling
+* try
+* except
+* ZeroDivisionError
+* ValueError
+* Input Validation
+* Membership Checking
+* GROUP BY
+* SQL Aggregation
+
 ---
 
 ## Daily Progress
@@ -585,6 +595,49 @@ Records Inserted:
 * Anita - 45000
 
 ---
+
+## Day 19
+
+Programs:
+
+* divide_numbers.py
+* safe_number_input.py
+* count_numbers_greater_than_20.py
+
+Concepts Learned:
+
+* Exception Handling
+* try
+* except
+* ZeroDivisionError
+* ValueError
+* Input Validation
+* Defensive Programming
+* Safe User Input Processing
+
+DSA Patterns Practiced:
+
+* Counting Pattern
+* Search Pattern
+* Membership Checking Pattern
+* Duplicate Detection Pattern
+
+SQL Concepts Reinforced:
+
+* GROUP BY
+* COUNT(*)
+* SUM()
+* Aggregation Queries
+
+Real Engineer Concepts:
+
+* Handling Invalid User Input
+* Building Fault-Tolerant Programs
+* Unique Value Detection
+* Using Sets for Fast Membership Checks
+* Scalable Data Storage with Lists
+* Data Validation Before Processing
+
 
 ## Skills Learned
 
