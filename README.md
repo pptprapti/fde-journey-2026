@@ -686,6 +686,35 @@ SQL Concepts Learned:
 * Database-side Processing
 * Query Optimization Thinking
 
+---
+
+Day 21
+
+Programs:
+- username_generator.py
+- log_level_counter.py
+- high_salary_detector.py
+- inactive_user_detector.py
+- vendor_spend_monitor.py
+
+Concepts Learned:
+- Dictionary Traversal
+- Search Pattern
+- Boolean Flag Pattern
+- Transformation Pattern
+- Frequency Counting Pattern
+- SQL WHERE
+- SQL ORDER BY
+- SQL COUNT(*)
+
+Real Engineer Concepts:
+- Username Generation
+- Log Monitoring
+- User Activity Reporting
+- Vendor Spend Analysis
+- Salary Threshold Detection
+
+---
 
 ## Skills Learned
 
