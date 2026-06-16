@@ -638,6 +638,54 @@ Real Engineer Concepts:
 * Scalable Data Storage with Lists
 * Data Validation Before Processing
 
+---
+
+## Day 20
+
+Programs:
+
+* employee_id_validator.py
+* password_strength_checker.py
+* email_domain_counter.py
+
+Concepts Learned:
+
+* Frequency Counting
+* Duplicate Detection
+* Membership Checking
+* Boolean Flag Pattern
+* Password Validation
+* String Splitting
+* Domain Extraction
+* Frequency Analysis
+* Dictionary-Based Counting
+
+DSA Patterns Practiced:
+
+* Frequency Counting Pattern
+* Membership Checking Pattern
+* Search Pattern
+* Duplicate Detection Pattern
+* Boolean Flag Pattern
+
+Real Engineer Concepts:
+
+* Dynamic Data Structures
+* Email Domain Analytics
+* Password Validation Logic
+* Scalable Counting Systems
+* Dictionary vs List
+* Dictionary vs Set
+* Real-World Frequency Analysis
+
+SQL Concepts Learned:
+
+* ORDER BY ASC
+* ORDER BY DESC
+* Sorting Records
+* Database-side Processing
+* Query Optimization Thinking
+
 
 ## Skills Learned
 
