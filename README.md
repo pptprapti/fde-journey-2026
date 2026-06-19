@@ -747,6 +747,37 @@ Real Engineer Concepts:
 * Safe Data Updates
 * Requirement-Based Data Structure Selection
 
+---
+
+Day 23
+
+Programs:
+
+* bank_account.py
+* multi_account_bank.py
+* transaction_history.py
+* savings_account.py
+
+Concepts Learned:
+
+* Classes and Objects
+* __init__ Constructor
+* self and Instance Attributes
+* Instance Methods
+* Boundary Conditions (<= vs <)
+* Looping Through Lists of Objects
+* Lists as Instance Attributes
+* Inheritance (class Child(Parent))
+* super().__init__()
+
+Real Engineer Concepts:
+
+* Encapsulation (bundling data + behavior)
+* Independent Object State
+* Defensive Checks Before Mutating Data
+* Transaction Logging / Audit Trail Pattern
+* Code Reuse via Inheritance (avoiding duplication/drift)
+* Testing Success and Failure Paths
 
 ## Skills Learned
 

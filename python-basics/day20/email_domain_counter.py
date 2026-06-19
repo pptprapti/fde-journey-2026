@@ -17,3 +17,14 @@ for word in emails:
         domains[domain] = 1
 
 print(f"{domains}")
+
+
+
+
+
+
+
+
+
+
+
