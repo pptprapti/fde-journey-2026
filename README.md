@@ -805,6 +805,31 @@ Real Engineer Concepts:
 * Comparing object data instead of memory identity
 * Writing dunder methods to make custom classes behave like built-in types
 
+---
+
+Day 25
+
+Programs:
+
+* class_attributes.py
+
+Concepts Learned:
+
+* Class Attributes vs Instance Attributes
+* Shared State Across All Objects
+* Attribute Lookup (object checks itself first, then falls back to class)
+* @staticmethod decorator
+* Static Methods (no self, grouped logic without object dependency)
+* String validation: len() + .isdigit()
+* and operator combining two conditions
+
+Real Engineer Concepts:
+
+* Tracking system-wide counters (e.g., total records created)
+* Avoiding silent bugs from self vs ClassName when updating shared state
+* Organizing utility/validation logic inside relevant classes
+* Naming conventions (snake_case for methods)
+* Input validation patterns
 ## Skills Learned
 
 ### Python Basics
