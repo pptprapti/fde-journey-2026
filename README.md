@@ -830,6 +830,29 @@ Real Engineer Concepts:
 * Organizing utility/validation logic inside relevant classes
 * Naming conventions (snake_case for methods)
 * Input validation patterns
+
+---
+
+Day 26
+
+Programs:
+
+* bank.py
+* main.py
+
+Concepts Learned:
+
+* Modules (splitting code across multiple .py files)
+* from module import X (direct name import)
+* import module (prefixed access via module.X)
+* Naming collisions between modules
+* Reusing class definitions across files without duplication
+
+Real Engineer Concepts:
+
+* Separating logic (bank.py) from execution/testing (main.py)
+* Avoiding naming collisions in larger codebases
+* Single source of truth for class definitions across a multi-file project
 ## Skills Learned
 
 ### Python Basics

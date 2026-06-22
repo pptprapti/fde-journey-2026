@@ -18,7 +18,7 @@ owner3 = BankAccount("Rupam", 100000)
 
 print(owner1.total_account)  #3
 print(BankAccount.total_account)  #3
-print(BankAccount.is_valid_account_number("1234567891"))
+print(BankAccount.is_v                                                                                                                                                                                                                                 alid_account_number("1234567891"))
 print(BankAccount.is_valid_account_number("12234abcd"))
 
 #Both are giving same value but what's the difference?
