@@ -779,6 +779,32 @@ Real Engineer Concepts:
 * Code Reuse via Inheritance (avoiding duplication/drift)
 * Testing Success and Failure Paths
 
+---
+
+Day 24
+
+Programs:
+
+* dunder_test.py
+* student_practice.py
+
+Concepts Learned:
+
+* __str__ (human-readable string representation)
+* __repr__ (developer/debug representation)
+* print() priority: __str__ over __repr__
+* __repr__ used when objects are inside lists
+* __eq__ (custom equality comparison)
+* Default object equality is identity-based, not data-based
+* self vs other in two-object comparisons
+
+Real Engineer Concepts:
+
+* Designing readable output for end users vs developers
+* Why default Python behavior isn't always what you want
+* Comparing object data instead of memory identity
+* Writing dunder methods to make custom classes behave like built-in types
+
 ## Skills Learned
 
 ### Python Basics
