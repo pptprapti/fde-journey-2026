@@ -853,6 +853,33 @@ Real Engineer Concepts:
 * Separating logic (bank.py) from execution/testing (main.py)
 * Avoiding naming collisions in larger codebases
 * Single source of truth for class definitions across a multi-file project
+
+--------
+
+Day 27
+
+Programs:
+
+* day27_contains_duplicate.py
+
+Concepts Learned:
+
+* Frequency Counting Pattern (hash map / dictionary)
+* Check-before-add ordering in duplicate detection
+* Time Complexity: O(n) vs O(n^2)
+* SQL GROUP BY
+* SQL Aggregate Functions: COUNT, SUM, AVG
+* SQL HAVING (filtering groups after aggregation)
+* NULL grouping behavior in GROUP BY
+* WHERE vs HAVING execution order
+
+Real Engineer Concepts:
+
+* Why hash maps avoid nested-loop performance problems at scale
+* Manually tracing query logic before trusting output
+* NULL as a data quality signal in real datasets
+* Filtering rows (WHERE) vs filtering aggregated groups (HAVING)
+
 ## Skills Learned
 
 ### Python Basics
