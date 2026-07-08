@@ -19,3 +19,28 @@
 ### Real Data Finding
 - employees table had 2 rows with NULL department (Anita, Riya)
 - Verified via SUM: NULL group total (95000) = Anita (45000) + Riya (50000)
+
+## Day 28: JOINs
+
+### INNER JOIN
+- Returns only rows with matches in BOTH tables
+- Unmatched rows are excluded entirely (silently drops them)
+- Use when you want only complete, valid, matched records
+
+### LEFT JOIN
+- Returns ALL rows from the left table (FROM table)
+- Fills right table columns with NULL where no match exists
+- Use when you need the full picture including gaps/missing data
+
+### Key Real-World Pattern
+- LEFT JOIN + WHERE right_table.column IS NULL = find orphaned/unmatched records
+- Directly useful for data migration validation (finding records with missing foreign keys)
+
+### Why ID-based joins are better than text-based joins
+- Integer comparisons faster than string comparisons at scale
+- Name changes only need updating in one place (departments table)
+- IDs guaranteed unique; text can have typos, case differences, trailing spaces
+
+### INNER vs LEFT JOIN decision
+- INNER JOIN: intentionally exclude incomplete records (clean reporting)
+- LEFT JOIN: show everything including gaps (data quality checks, audits)

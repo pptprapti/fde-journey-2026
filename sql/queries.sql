@@ -40,3 +40,38 @@ FROM employees
 WHERE salary > 50000
 GROUP BY department
 HAVING SUM(salary) > 70000;
+
+-- ============================================
+-- DAY 28: JOINs - INNER JOIN and LEFT JOIN
+-- ============================================
+
+-- Setup: Create departments table
+CREATE TABLE departments (
+    id INTEGER PRIMARY KEY,
+    name TEXT,
+    location TEXT
+);
+
+INSERT INTO departments (id, name, location) VALUES
+(1, 'IT', 'Bangalore'),
+(2, 'HR', 'Mumbai'),
+(3, 'Finance', 'Delhi');
+
+-- INNER JOIN: only employees with matching department
+-- Excludes Anita and Riya (NULL department)
+SELECT employees.name, employees.salary, departments.location
+FROM employees
+INNER JOIN departments ON employees.department = departments.name;
+
+-- LEFT JOIN: all employees, NULL location for unmatched
+-- Shows Anita and Riya with NULL location
+SELECT employees.name, employees.salary, departments.location
+FROM employees
+LEFT JOIN departments ON employees.department = departments.name;
+
+-- Practical use: find employees with no valid department (orphaned records)
+-- Real-world: data quality check in migration work
+SELECT employees.name, employees.department
+FROM employees
+LEFT JOIN departments ON employees.department = departments.name
+WHERE departments.name IS NULL;

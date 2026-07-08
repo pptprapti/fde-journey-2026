@@ -880,6 +880,41 @@ Real Engineer Concepts:
 * NULL as a data quality signal in real datasets
 * Filtering rows (WHERE) vs filtering aggregated groups (HAVING)
 
+----
+
+Day 28
+
+Programs:
+
+* two_sum_sorted.py
+* valid_palindrome.py
+
+Concepts Learned:
+
+* Two Pointers Pattern on sorted arrays
+* Two Pointers Pattern on strings
+* while loop for manual pointer control
+* .isalnum() for alphanumeric character checking
+* .lower() for case-insensitive comparison
+* if/elif/else for multi-condition pointer decisions
+* SQL INNER JOIN (matched records only)
+* SQL LEFT JOIN (all left table records)
+* NULL behavior in JOINs
+* Orphaned record detection pattern
+
+Real Engineer Concepts:
+
+* Sorted order enables guaranteed directional decisions
+* Each pointer step eliminates impossible pairs
+* O(n) Two Pointers vs O(n^2) brute force
+* INNER JOIN silently drops unmatched records
+* LEFT JOIN exposes data quality gaps
+* Foreign key design (ID vs text joins)
+* Migration validation using LEFT JOIN + IS NULL
+
+---
+
+
 ## Skills Learned
 
 ### Python Basics
