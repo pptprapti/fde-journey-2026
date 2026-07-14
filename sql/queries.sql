@@ -75,3 +75,19 @@ SELECT employees.name, employees.department
 FROM employees
 LEFT JOIN departments ON employees.department = departments.name
 WHERE departments.name IS NULL;
+
+-- ============================================
+-- DAY 29: RIGHT JOIN
+-- ============================================
+
+-- RIGHT JOIN: all rows from right table (departments)
+-- employees without a matching department are excluded
+-- departments without matching employees would show NULL on left columns
+SELECT employees.name, employees.salary,
+       departments.name as dept_name, departments.location
+FROM employees
+RIGHT JOIN departments ON employees.department = departments.name;
+
+-- Note: RIGHT JOIN is equivalent to swapping tables and using LEFT JOIN
+-- Most developers prefer LEFT JOIN for readability
+-- A RIGHT JOIN B = B LEFT JOIN A

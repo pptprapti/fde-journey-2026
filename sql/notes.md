@@ -44,3 +44,20 @@
 ### INNER vs LEFT JOIN decision
 - INNER JOIN: intentionally exclude incomplete records (clean reporting)
 - LEFT JOIN: show everything including gaps (data quality checks, audits)
+
+## Day 29: RIGHT JOIN
+
+### RIGHT JOIN
+- Returns ALL rows from the right table (table after RIGHT JOIN keyword)
+- NULLs appear on left table columns where no match exists
+- Mirror image of LEFT JOIN
+
+### JOIN Summary so far
+- INNER JOIN: only matched rows from both tables
+- LEFT JOIN: all left rows + matched right rows (NULLs for unmatched)
+- RIGHT JOIN: all right rows + matched left rows (NULLs for unmatched)
+- RIGHT JOIN rarely used in practice - rewrite as LEFT JOIN by swapping tables
+
+### Key Rule
+- A RIGHT JOIN B = B LEFT JOIN A
+- Always prefer LEFT JOIN for readability
