@@ -914,6 +914,36 @@ Real Engineer Concepts:
 
 ---
 
+Day 29
+
+Programs:
+
+* contains_duplicate_v2.py
+* max_average_subarray.py
+
+Concepts Learned:
+
+* Set vs Dictionary - when to use which
+* Set lookup and add: O(1)
+* Sliding Window Pattern
+* Building first window with sum()
+* Sliding formula: currSum = currSum - nums[i] + nums[i+k]
+* Tracking maximum with max()
+* Time Complexity framework: count loops, work per iteration, multiply layers
+* Sequential loops vs nested loops (add vs multiply)
+* Space Complexity O(1) vs O(n)
+* SQL RIGHT JOIN
+* RIGHT JOIN vs LEFT JOIN equivalence
+
+Real Engineer Concepts:
+
+* Set appropriate when only membership matters, not count
+* Sliding Window avoids recomputing from scratch (O(n) vs O(n*k))
+* Deriving time complexity from code structure, not memorization
+* Space/time tradeoff awareness
+* Dry running code before trusting output
+* RIGHT JOIN rarely used - swap tables and use LEFT JOIN instead
+* JOIN type selection based on which table drives the result
 
 ## Skills Learned
 
